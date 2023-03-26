@@ -1,0 +1,17 @@
+{
+  "name": "rc",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts":{
+    "build": "nx build",
+    "build:all": "nx run-many --target=build --all"
+  },
+  "devDependencies": {
+    "@nrwl/js": "15.8.9",
+    "@nrwl/workspace": "15.8.9",
+    "nx": "15.8.9",
+    "prettier": "^2.6.2"
+  },
+  "packageManager": "yarn@3.5.0"
+}

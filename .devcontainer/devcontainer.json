@@ -8,10 +8,21 @@
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers/features/sshd:1": {},
 		"ghcr.io/devcontainers-contrib/features/pulumi:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"mikestead.dotenv",
+				"EditorConfig.EditorConfig",
+				"dbaeumer.vscode-eslint",
+				"GraphQL.vscode-graphql",
+				"DavidAnson.vscode-markdownlint",
+				"nrwl.angular-console",
+				"esbenp.prettier-vscode",
+				"redhat.vscode-yaml"
+			]
+		}
 	}
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
